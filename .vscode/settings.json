@@ -1,5 +1,6 @@
 {
         "files.associations": {
-                "c_init.h": "c"
+                "c_init.h": "c",
+                "random": "c"
         }
 }

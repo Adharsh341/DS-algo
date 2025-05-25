@@ -18,7 +18,7 @@ By including stdlib.h, you can leverage these functions to write more efficient 
 #include "c_init.h"
 
 // Macro definition
-#define LIMIT 5
+#define LIMIT 55
 //chaining of Macros 
 #define INSTAGRAM FOLLOWERS
 #define FOLLOWERS 138
@@ -68,10 +68,18 @@ int main(){
     
     printf("%d\n",add_with_Macro(a1,b1));
 
+    if (IS_EVEN(LIMIT)){
+        printf("LIMIT is an even Num\n");
+    }
+
+    if (IS_ODD(LIMIT)){
+        printf("LIMIT is an odd Num\n");
+    }
+        
+    printf("%d is %s\n", LIMIT, EVEN_ODD(LIMIT));
 
 
-    
-
+    printf("%d\n",sum_digi(LIMIT));
         return 0;
 }
 

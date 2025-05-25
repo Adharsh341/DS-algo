@@ -7,6 +7,10 @@ void decimal_to_binary(int n) {
     printf("%d", n % 2);
 }
 
+int disp_val(){
+    printf("\nhello world");
+    return 0;
+}
 int main() {
     int num;
     printf("Enter a decimal number: ");
@@ -14,6 +18,7 @@ int main() {
 
     printf("Binary representation of %d is: ", num);
     decimal_to_binary(num);
+    disp_val();
     printf("\n");
 
     return 0;
